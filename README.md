@@ -16,7 +16,7 @@ Un bot de Telegram que ayuda a detectar el **frame exacto en el que despega un c
 
 ## 📦 Tecnologías utilizadas
 
-- **Python 3.10+**
+- **Python 3.12.3**
 - **[python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)** (v20+)
 - **httpx** – Cliente HTTP para conectarse a la API FrameX
 - **Pillow (PIL)** – Para tratar imágenes desde la API
@@ -85,7 +85,6 @@ Con el entorno virtual activado y el `.env` configurado, lanza el bot con:
 
 ```bash
 python3 main.py
-
 ```
 
 Si todo está correcto, deberías ver en la consola:
@@ -98,3 +97,4 @@ Abre tu bot en Telegram y envía /start o /launch para comenzar la búsqueda del
 - `/start`: Muestra un mensaje de bienvenida.
 - `/launch`: Inicia la búsqueda interactiva del momento del despegue.
 
+---
